@@ -9,8 +9,7 @@ module.exports = class RedisService extends DBService {
     }
 
     async initDatabase() {
-        //const dbName = "spaceout_db";
-        //const url = `mongodb://${process.env.MONGO_HOSTNAME}:27017/${dbName}`; //mongoserver is service name of mongo in dockers
+        //* Write codes to connect to your db. In this case here will contain implmentation on connect to redis
 
         console.log('Redis DB connected!');
     }
